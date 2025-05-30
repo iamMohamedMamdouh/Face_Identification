@@ -18,7 +18,6 @@ def generate_csv(root_dir, output_csv_path):
 
     print("✅ تم إنشاء الملف بنجاح!")
 
-# استخدمه كالتالي
 generate_csv(
     root_dir='D:/Coding/python/Face_Identification/face_identification/train',
     output_csv_path='D:/Coding/python/Face_Identification/face_identification/trainset.csv'
