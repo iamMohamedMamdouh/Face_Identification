@@ -20,7 +20,7 @@ def recognize_from_video(video_path, known_embeddings, known_labels):
     results = []
 
     if not cap.isOpened():
-        print("❌ Failed to open video.")
+        print("Failed to open video.")
         return
 
     while True:
