@@ -16,7 +16,7 @@ def generate_csv(root_dir, output_csv_path):
                 label = label_folder
                 writer.writerow([f"{img_path},{label}"])
 
-    print("✅ تم إنشاء الملف بنجاح!")
+    print("The file was created successfully")
 
 generate_csv(
     root_dir='D:/Coding/python/Face_Identification/face_identification/train',
